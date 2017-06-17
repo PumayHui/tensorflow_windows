@@ -18,11 +18,17 @@ Configuration:
 Microsoft Windows 10
 
 Microsoft Visual Studio Enterprise 2015 with Visual C++ 2015
+
 Intel distribution for Python 3.5.3 - Anaconda 4.3.1 (2017 Update 3)
+
 Git for Windows version 2.13.0
+
 swigwin-3.0.12
+
 NVidia CUDA Toolkit 8.0
+
 NVidia CUDNN 5.1
+
 CMake 3.9.0 rc3
 
 cmake command:
