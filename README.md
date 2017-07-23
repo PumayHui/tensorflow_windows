@@ -37,6 +37,7 @@ cmake .. -G "Visual Studio 15 2017 Win64" -DCMAKE_BUILD_TYPE=Release -DSWIG_EXEC
 MSBuild /p:Configuration=Release tf_python_build_pip_package.vcxproj
 
 Working:
+
   CPU - Compiled using VS 2017 w/ AVX support and python 3.5.3, no modifications
   
   GPU - Compiled using VS 2015 w/o AVX support and python 3.5.3, CUDA arch is 3.0, 5.2, 6.1 (changed from 3.0, 3.5, 5.2). Using CUDA 8.0.61 and cuDNN 5.1
