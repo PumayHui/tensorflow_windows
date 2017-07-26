@@ -10,6 +10,8 @@ Built on Dell XPS 15, 9560 i7-7700HQ (GPU: Nvidia 1050)
 
 See also [Matching SM architectures (CUDA arch and CUDA gencode) for various NVIDIA cards](http://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
 
-| **`Linux CPU`** | **`Linux GPU`** | **`Mac OS CPU`** | **`Windows CPU`** | **`Android`** |
-|-----------------|---------------------|------------------|-------------------|---------------|
-| [![Build Status](https://ci.tensorflow.org/buildStatus/icon?job=tensorflow-master-cpu)](https://ci.tensorflow.org/job/tensorflow-master-cpu) | [![Build Status](https://ci.tensorflow.org/buildStatus/icon?job=tensorflow-master-linux-gpu)](https://ci.tensorflow.org/job/tensorflow-master-linux-gpu) | [![Build Status](https://ci.tensorflow.org/buildStatus/icon?job=tensorflow-master-mac)](https://ci.tensorflow.org/job/tensorflow-master-mac) | [![Build Status](https://ci.tensorflow.org/buildStatus/icon?job=tensorflow-master-win-cmake-py)](https://ci.tensorflow.org/job/tensorflow-master-win-cmake-py) | [![Build Status](https://ci.tensorflow.org/buildStatus/icon?job=tensorflow-master-android)](https://ci.tensorflow.org/job/tensorflow-master-android) |
+| Category | Name | Compiler | CUDA/cuDNN | AVX | Notes |
+|-----------------|---------------------|------------------|-------------------|---------------|---------------|
+| Testing | tensorflow_gpu-1.2.1-cp35-cp35m-win_amd64.whl | VS2015 Update 3 | 8.0.61/5.1 | Yes | Batch norm is broken, SM30,52,61 |
+| Working | tensorflow-1.2.1-cp35-cp35m-win_amd64.whl | VS2017 15.2 | NaN/NaN | Yes | AVX enabled |
+| Working | tensorflow_gpu-1.2.1-cp35-cp35m-win_amd64.whl | VS2015 Update 3 | 8.0.61/5.1 | No | SM30,52,61, No AVX |
