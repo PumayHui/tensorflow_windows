@@ -6,6 +6,7 @@ Built on Dell XPS 15, 9560 i7-7700HQ (GPU: Nvidia 1050)
 		 - Tensorflow GPU 1.2.1 Py 3.5.3, (AVX + CUDA 5.1 SM30, 52, 61) broken batchnorm
 		 - Tensorflow GPU 1.2.1, Py 3.6.2 (CUDA 5.1 SM30, 52, 61) broken batchnorm
 		 - Tensorflow GPU 1.2.1, Py 3.6.2 (CUDA 6 SM30, 52, 61) broken batchnorm
+		 - Tensorflow GPU 1.2.1, Py 3.6.2 (CUDA 5.1 SM30, 35, 52) broken batchnorm
 	 -  Working (This contains builds that are functional)
 		 - Tensorflow CPU 1.2.1 Py 3.5.3 (AVX)
 		 - Tensorflow GPU 1.2.1 Py 3.5.3 (CUDA 5.1 SM30, 52, 61)
