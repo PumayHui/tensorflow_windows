@@ -1,3 +1,5 @@
+Tensorflow 1.4 w/ cuDNN 7 in progress.
+
 Optimized tensorflow builds for Windows x64.
 Built on Dell XPS 15, 9560 i7-7700HQ (GPU: Nvidia 1050)
 
