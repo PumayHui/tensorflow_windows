@@ -13,7 +13,7 @@ Built on Dell XPS 15, 9560 i7-7700HQ (GPU: Nvidia 1050)
 		 - Tensorflow CPU 1.2.1 Py 3.5.3 (AVX)
 		 - Tensorflow GPU 1.2.1 Py 3.5.3 (cudnn 5.1 SM30, 52, 61)
 		 - Tensorflow CPU 1.4.0 Py 3.6.3 (AVX2)
-		 - Tensorflow GPU 1.4.0 Py 3.5.3 (AVX + cudnn 7.0.4 SM30, 52, 61)
+		 - Tensorflow GPU 1.4.0 Py 3.6.3 (AVX + cudnn 7.0.4 SM30, 52, 61)
 
 See also [Matching SM architectures (CUDA arch and CUDA gencode) for various NVIDIA cards](http://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
 
