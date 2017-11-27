@@ -26,4 +26,4 @@ See also [Matching SM architectures (CUDA arch and CUDA gencode) for various NVI
 | Working | tensorflow-1.2.1-cp35-cp35m-win_amd64.whl | VS2017 15.2 | NaN/NaN | Yes | Py 3.5.3 |
 | Working | tensorflow_gpu-1.2.1-cp35-cp35m-win_amd64.whl | VS2015 Update 3 | 8.0.61/5.1 | No | SM30,52,61, Py 3.5.3|
 | Working | tensorflow-1.4.0-cp36-cp36m-win_amd64.whl | VS2017 15.4 | NaN/NaN | Yes(AVX2) | Py 3.6.3|
-| Working | tensorflow_gpu-1.4.0-cp36-cp36m-win_amd64.whl | VS2015 Update 3 | 8.0.61.2/7.0.4 | Yes(AVX) | Py 3.6.3|
+| Working | tensorflow_gpu-1.4.0-cp36-cp36m-win_amd64.whl | VS2015 Update 3 | 8.0.61.2/7.0.4 | Yes(AVX) | SM30,52,61, Py 3.6.3|
